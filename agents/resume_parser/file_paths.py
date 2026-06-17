@@ -1,0 +1,1 @@
+RESUME_PATH = '/Users/harshsharma/Desktop/AIProject/AgenticAI/Career_pulse/resume.pdf'
