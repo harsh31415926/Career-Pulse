@@ -2,8 +2,8 @@ import fitz
 
 ''' ============: LOCAL IMPORTS :==============='''
 
-from file_paths import RESUME_PATH
-from agents_prompts import RESUME_PARSER_PROMPT
+from agents.resume_parser.file_paths import RESUME_PATH
+from agents.resume_parser.agents_prompts import RESUME_PARSER_PROMPT
 
 
 ''' ====================: Extract Text from Resume :=================== '''
@@ -18,5 +18,5 @@ def resume_parser(pdf_path):
 
     return text
 
-s = resume_parser(RESUME_PATH)
-print(s)
+# s = resume_parser(RESUME_PATH)
+# print(s)

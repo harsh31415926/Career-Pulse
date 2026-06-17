@@ -5,3 +5,4 @@ fitz
 frontend
 pymupdf
 groq
+dotenv

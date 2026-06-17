@@ -1,0 +1,108 @@
+{
+    "name": "Harsh Sharma",
+    "email": "harsh3h3@gmail.com",
+    "phone": "+91 91654 29244",
+    "education": [
+        {
+            "institute": "Institute of Engineering and Technology",
+            "location": "Indore, MP",
+            "degree": "Bachelor of Engineering (B.E.)",
+            "duration": "2023 \u2013 Present"
+        },
+        {
+            "institute": "Kiddys Corner School",
+            "location": "Gwalior, MP",
+            "degree": "Class XII \u2013 CBSE",
+            "percentage": "82.8%",
+            "duration": "2021 \u2013 2022"
+        },
+        {
+            "institute": "Kiddys Corner School",
+            "location": "Gwalior, MP",
+            "degree": "Class X \u2013 CBSE",
+            "percentage": "83.6%",
+            "duration": "2019 \u2013 2020"
+        }
+    ],
+    "skills": [
+        "Python",
+        "Java",
+        "SQL",
+        "Classification",
+        "Regression",
+        "Ensemble Methods",
+        "Neural Networks",
+        "CNNs",
+        "RNNs",
+        "Transformers",
+        "Model Evaluation",
+        "Hyperparameter Tuning",
+        "LLMs",
+        "Prompt Engineering",
+        "LangGraph",
+        "LangChain",
+        "Agentic Systems",
+        "Conversational AI",
+        "Context Management",
+        "Scikit-learn",
+        "XGBoost",
+        "TensorFlow",
+        "Pandas",
+        "NumPy",
+        "Streamlit",
+        "Git",
+        "GitHub",
+        "Jupyter Notebook",
+        "VS Code",
+        "ML Pipelines",
+        "Debugging",
+        "Version Control",
+        "Claude"
+    ],
+    "projects": [
+        {
+            "name": "AI Chatbot",
+            "technologies": [
+                "LangGraph",
+                "LLaMa 3.3 (Groq API)",
+                "Streamlit",
+                "Python"
+            ],
+            "duration": "Jan \u2013 Mar 2026",
+            "description": "Built a multi-threaded agentic AI chatbot using LangGraph with persistent conversational memory and state management."
+        },
+        {
+            "name": "Student Dropout Risk Predictor",
+            "technologies": [
+                "Python",
+                "XGBoost",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "duration": "Oct \u2013 Nov 2025",
+            "description": "Built an AI-driven student dropout prediction system using XGBoost and end-to-end ML pipeline."
+        },
+        {
+            "name": "Movie Buddy",
+            "technologies": [
+                "Python",
+                "NLP",
+                "Scikit-learn",
+                "Streamlit"
+            ],
+            "duration": "Aug \u2013 Sept 2025",
+            "description": "Built a content-based recommendation engine using cosine similarity across 5,000+ movies."
+        }
+    ],
+    "experience": [],
+    "certifications": [
+        "Smart India Hackathon 2025 \u2014 National Finalist \u2014 Top 1% nationwide",
+        "LeetCode \u2014 Solved 200+ DSA problems across core data structures",
+        "Deep Learning Specialization \u2014 Andrew Ng, Coursera (CNNs, Sequence Models)",
+        "Machine Learning & Python Certification \u2014 Code With Harry"
+    ],
+    "achievements": [
+        "Smart India Hackathon 2025 \u2014 National Finalist \u2014 Top 1% nationwide",
+        "LeetCode \u2014 Solved 200+ DSA problems across core data structures"
+    ]
+}

@@ -3,7 +3,7 @@ You are an expert resume parser.
 
 Extract the following information from the resume and return ONLY valid JSON.
 
-{
+{{
     "name": "",
     "email": "",
     "phone": "",
@@ -13,14 +13,12 @@ Extract the following information from the resume and return ONLY valid JSON.
     "experience": [],
     "certifications": [],
     "achievements": []
-}
+}}
 
 Resume:
 
 {resume}
 """
-
-
 
 
 
