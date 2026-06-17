@@ -1,0 +1,56 @@
+{
+    "experienceLevel": "Entry-Level",
+    "specializations": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing",
+        "Conversational AI"
+    ],
+    "bestTargetRoles": [
+        "AI Engineer",
+        "Generative AI Engineer",
+        "Agentic AI Engineer",
+        "LLM Engineer",
+        "Applied AI Engineer",
+        "Machine Learning Engineer"
+    ],
+    "searchKeywords": [
+        "AI",
+        "Machine Learning",
+        "Deep Learning",
+        "LLMs",
+        "LangGraph",
+        "LangChain",
+        "Agentic AI",
+        "Conversational AI",
+        "Python",
+        "Java",
+        "SQL",
+        "Scikit-learn",
+        "XGBoost",
+        "TensorFlow",
+        "Streamlit"
+    ],
+    "suitableSeniorityLevels": [
+        "Junior",
+        "Entry-Level"
+    ],
+    "preferredLocations": [
+        "Bangalore",
+        "Hyderabad",
+        "Pune",
+        "Mumbai",
+        "Gurugram",
+        "Noida",
+        "Chennai"
+    ],
+    "strengths": [
+        "Strong programming skills in Python and Java",
+        "Experience with AI and ML frameworks such as Scikit-learn, XGBoost, and TensorFlow",
+        "Knowledge of Conversational AI and LLMs",
+        "Familiarity with cloud-based technologies such as Streamlit and GitHub",
+        "Proven problem-solving skills through LeetCode and Smart India Hackathon"
+    ],
+    "careerSummary": "Highly motivated and detail-oriented AI/ML enthusiast with a strong foundation in programming and experience in building AI-driven projects, including a multi-threaded agentic AI chatbot and a student dropout prediction system."
+}
