@@ -1,6 +1,6 @@
 import json
 
-from agents.job_search.build_query import generate_query
+from agents.query_builder.build_query import generate_query
 
 ''' : ============================== Take the profile of the candidate =============================: '''
 
