@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 from agents.resume_parser.agents_prompts import RESUME_PARSER_PROMPT
 from agents.resume_parser.file_paths import RESUME_PATH
-from agents.resume_parser.model import LLM_MODEL
+from Career_pulse.agents.resume_parser.llm_model import LLM_MODEL
 from agents.resume_parser.resume_parser import resume_parser
 
 load_dotenv()
