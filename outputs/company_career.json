@@ -1,0 +1,138 @@
+[
+    {
+        "company": "JPMorgan Chase",
+        "career_url": "https://careers.jpmorgan.com"
+    },
+    {
+        "company": "Goldman Sachs",
+        "career_url": "https://higher.gs.com"
+    },
+    {
+        "company": "Citadel",
+        "career_url": "https://www.citadel.com/careers"
+    },
+    {
+        "company": "Morgan Stanley",
+        "career_url": "https://www.morganstanley.com/careers"
+    },
+    {
+        "company": "Bank of America",
+        "career_url": "https://careers.bankofamerica.com"
+    },
+    {
+        "company": "Deutsche Bank",
+        "career_url": "https://careers.db.com"
+    },
+    {
+        "company": "UBS",
+        "career_url": "https://www.ubs.com/global/en/careers.html"
+    },
+    {
+        "company": "Barclays",
+        "career_url": "https://search.jobs.barclays"
+    },
+    {
+        "company": "HSBC",
+        "career_url": "https://www.hsbc.com/careers"
+    },
+    {
+        "company": "Jane Street",
+        "career_url": "https://www.janestreet.com/join-jane-street"
+    },
+    {
+        "company": "Two Sigma",
+        "career_url": "https://www.twosigma.com/careers"
+    },
+    {
+        "company": "Citigroup",
+        "career_url": "https://jobs.citi.com"
+    },
+    {
+        "company": "Jump Trading",
+        "career_url": "https://www.jumptrading.com/careers"
+    },
+    {
+        "company": "IMC Trading",
+        "career_url": "https://careers.imc.com"
+    },
+    {
+        "company": "Optiver",
+        "career_url": "https://optiver.com/working-at-optiver"
+    },
+    {
+        "company": "Google",
+        "career_url": "https://careers.google.com"
+    },
+    {
+        "company": "Amazon",
+        "career_url": "https://www.amazon.jobs"
+    },
+    {
+        "company": "Microsoft",
+        "career_url": "https://careers.microsoft.com"
+    },
+    {
+        "company": "Facebook",
+        "career_url": "https://www.metacareers.com"
+    },
+    {
+        "company": "Apple",
+        "career_url": "https://jobs.apple.com"
+    },
+    {
+        "company": "Palantir",
+        "career_url": "https://www.palantir.com/careers"
+    },
+    {
+        "company": "NVIDIA",
+        "career_url": "https://www.nvidia.com/en-us/about-nvidia/careers"
+    },
+    {
+        "company": "IBM",
+        "career_url": "https://www.ibm.com/careers"
+    },
+    {
+        "company": "Accenture",
+        "career_url": "https://www.accenture.com/careers"
+    },
+    {
+        "company": "Deloitte",
+        "career_url": "https://www2.deloitte.com/careers"
+    },
+    {
+        "company": "KPMG",
+        "career_url": "https://kpmg.com/careers"
+    },
+    {
+        "company": "Ernst & Young",
+        "career_url": "https://careers.ey.com"
+    },
+    {
+        "company": "PwC",
+        "career_url": "https://www.pwc.com/careers"
+    },
+    {
+        "company": "PayPal",
+        "career_url": "https://careers.pypl.com"
+    },
+    {
+        "company": "Stripe",
+        "career_url": "https://stripe.com/jobs"
+    },
+    {
+        "company": "Robinhood",
+        "career_url": "https://careers.robinhood.com"
+    },
+    {
+        "company": "Chime",
+        "career_url": "https://careers.chime.com"
+    },
+    {
+        "company": "Plaid",
+        "career_url": "https://plaid.com/careers"
+    },
+    {
+        "company": "Scale AI",
+        "career_url": "https://scale.com/careers"
+    }
+]

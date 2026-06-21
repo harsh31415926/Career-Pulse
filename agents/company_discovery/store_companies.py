@@ -17,7 +17,7 @@ companies = (
     .strip()
 )
 
-# print(type(companies))  <str>
+# print((companies)) 
 
 companies_json = json.loads(companies)
 

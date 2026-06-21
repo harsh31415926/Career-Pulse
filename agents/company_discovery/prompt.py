@@ -33,9 +33,15 @@ Requirements:
 
 3. Do not include duplicate companies.
 
-4. Maximum 75 companies.
+4. Add startups also which are related to these roles and fintech startups
 
-5. Return ONLY valid JSON.
+5. Add maximum 100 companies
+
+6. Return valid JSON only.
+
+7. Do not escape company names.
+
+8. Do not use backslashes.
 
 Output Format:
 
