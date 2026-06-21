@@ -10,5 +10,5 @@ all_queries = load_queries()
 
 queries = load_queries()
 
-for query in queries['queries'] :
-    print(query)
+# for query in queries['queries'] :
+#     print(query)

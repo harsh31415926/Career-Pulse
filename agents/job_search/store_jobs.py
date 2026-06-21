@@ -1,5 +1,3 @@
-# agents/job_search/store_jobs.py
-
 import json
 
 def save_jobs(jobs):
