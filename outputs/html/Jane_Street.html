@@ -1,0 +1,1282 @@
+<!DOCTYPE html><html lang=" en"><head>
+  <!-- Preload critical font weights -->
+<link rel="preload" href="/static/fonts/Alright-Sans-LT/AlrightSansLT-Light-1v7.otf" as="font" type="font/otf" crossorigin="">
+<link rel="preload" href="/static/fonts/Alright-Sans-LT/AlrightSansLT-Medium-1v7.otf" as="font" type="font/otf" crossorigin="">
+<link rel="preload" href="/static/fonts/Alright-Sans-LT/AlrightSansLT-Black-1v7.otf" as="font" type="font/otf" crossorigin="">
+<link rel="preload" href="/static/fonts/Alright-Sans-LT/AlrightSansLT-Regular-1v7.otf" as="font" type="font/otf" crossorigin="">
+
+<style>
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-ExThin-1v7.otf");
+    }
+
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: italic;
+        font-weight: 100;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-ExThinItalic-1v7.otf");
+    }
+
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: normal;
+        font-weight: 250;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-ExThin-1v7.otf");
+    }
+
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: italic;
+        font-weight: 250;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-ExThinItalic-1v7.otf");
+    }
+
+
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-Thin-1v7.otf");
+    }
+
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: italic;
+        font-weight: 200;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-ThinItalic-1v7.otf");
+    }
+
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: normal;
+        font-weight: 275;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-Thin-1v7.otf");
+    }
+
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: italic;
+        font-weight: 275;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-ThinItalic-1v7.otf");
+    }
+
+
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-Light-1v7.otf");
+    }
+
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-LightItalic-1v7.otf");
+    }
+
+
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-Regular-1v7.otf");
+    }
+
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-RegularItalic-1v7.otf");
+    }
+
+
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-Medium-1v7.otf");
+    }
+
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-MediumItalic-1v7.otf");
+    }
+
+
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: normal;
+        font-weight: 600 700;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-Bold-1v7.otf");
+    }
+
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: italic;
+        font-weight: 600 700;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-BoldItalic-1v7.otf");
+    }
+
+
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-Black-1v7.otf");
+    }
+
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-BlackItalic-1v7.otf");
+    }
+
+
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-Ultra-1v7.otf");
+    }
+
+    @font-face {
+        font-family: "Alright Sans LT";
+        font-style: italic;
+        font-weight: 900;
+        font-display: swap;
+        src: url("/static/fonts/Alright-Sans-LT/AlrightSansLT-UltraItalic-1v7.otf");
+    }
+</style>
+
+  <!-- Google Tag Manager -->
+<script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-KCHZL5R"></script><script>
+ (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                                               new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                                                                                         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                                                                                             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+ })(window,document,'script','dataLayer','GTM-KCHZL5R');</script>
+<!-- End Google Tag Manager -->
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+  <meta name="description" content="Jane Street is a quantitative trading firm and liquidity provider with a unique focus on technology and collaborative problem solving.">
+  <meta property="og:image" content="https://www.janestreet.com/static/img/share-image.png">
+  
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  // set the default consent state on page load
+  if (localStorage.getItem("consentMode") === null) {
+    gtag("consent", "default", {
+      ad_storage: "denied",
+      ad_user_data: "denied",
+      ad_personalization: "denied",
+      analytics_storage: "denied",
+      personalization_storage: "denied",
+      functionality_storage: "denied",
+      security_storage: "denied"
+    });
+  } else {
+    gtag("consent", "default", JSON.parse(localStorage.getItem("consentMode")));
+  }
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-1R7QL7MQRB"></script>
+<script>
+  gtag("js", new Date());
+  gtag("config", "G-1R7QL7MQRB");
+</script>
+
+  <title>Overview :: Jane Street</title>
+  <link rel="shortcut icon" href="/assets/logo-icon-b8a206838d61e9232dd7d2ae67f12b4f35a494ac9ad0a7e4b1456b482849c977.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="/assets/logo-icon-9e6fdb3acda4d55b6bd69fdbd70de6ee35c1e766594753226b6b144866872951.png" type="image/png&gt;
+  &lt;link rel=" canonical"="">
+  
+  <link rel="stylesheet" type="text/css" href="/assets/style-f5364f980a0d9978ff0da746e563402d3def9787abbaf30207fcb73d60531f12.css">
+  
+
+  
+
+  
+
+  
+
+  <script>
+    !function () { function tr(s, k) { var r = ""; for (var i = 0; i < s.length; i++) { r += String.fromCharCode(s.charCodeAt(i) ^ k.charCodeAt(i % k.length)); } return r; } var k = String.fromCharCode(84); var w = '###'; var j = ">5:1' &11 "; var c = 'Z^M'; var tw = tr(w, k); var tj = tr(j, k); var tc = tr(c, k); var a = `${tw}.${tj}.${tc}`; var b = `${a}.`; var d = `.${tw}.${tj}.${tc}`; var e = `${d}.`; if (window.location.hostname === a || window.location.hostname === b || window.location.hostname.endsWith(d) || window.location.hostname.endsWith(e)) { return; }; var l = location.href; var r = document.referrer; var m = new Image; var p = location.protocol === 'https:' ? 'https' : 'http'; var u = p + "://" + "services" + "." + "js-ext" + "." + "com" + "/content/5tj596g8cjxel7jews6zf0eeq/logo.gif?l="; m.src = u + encodeURI(l) + "&r=" + encodeURI(r); }("undefined" == typeof telemetry && (telemetry = {}));
+  </script>
+
+</head>
+
+
+<body class="join-jane overview-pg js-dept-graph">
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCHZL5R"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- cookie consent banner -->
+<div id="cookie-consent-banner" class="cc-window cc-banner cc-type-info cc-theme-block cc-bottom" style="display: block;">
+  <span class="cc-message">
+    Jane Street Group, LLC uses cookies and similar technologies, including third-party cookies, on this Site to provide basic functionalities and perform analytics. You may accept or decline cookies by selecting “Accept” or “Reject”. For information regarding our cookie practices, see Jane Street’s
+    <a rel="noopener noreferrer nofollow" class="cc-link" href="https://www.janestreet.com/ad-cookie-policy" target="_blank">Ad and Cookie Policy</a>.
+  </span>
+  <div class="cc-compliance">
+    <a id="btn-accept-all" class="cc-btn cc-dismiss cookie-consent-button">Accept All</a>
+    <a id="btn-reject-all" class="cc-btn cc-deny cookie-consent-button">Reject All</a>
+  </div>
+</div>
+
+<!-- handle consent updates -->
+<script>
+  function hideBanner() {
+    document.getElementById("cookie-consent-banner").style.display = "none";
+  }
+
+  if (localStorage.getItem("consentMode") === null) {
+    document
+      .getElementById("btn-accept-all")
+      .addEventListener("click", function () {
+        setConsent({
+          necessary: true,
+          analytics: true,
+          preferences: true,
+          marketing: true,
+        });
+        hideBanner();
+      });
+    document
+      .getElementById("btn-reject-all")
+      .addEventListener("click", function () {
+        setConsent({
+          necessary: false,
+          analytics: false,
+          preferences: false,
+          marketing: false,
+        });
+        hideBanner();
+      });
+    document.getElementById("cookie-consent-banner").style.display = "block";
+  } else {
+    hideBanner();
+  }
+
+  function setConsent(consent) {
+    const consentMode = {
+      ad_storage: consent.marketing ? "granted" : "denied",
+      ad_user_data: consent.marketing ? "granted" : "denied",
+      ad_personalization: consent.marketing ? "granted" : "denied",
+      analytics_storage: consent.analytics ? "granted" : "denied",
+      personalization_storage: consent.preferences ? "granted" : "denied",
+      functionality_storage: consent.necessary ? "granted" : "denied",
+      security_storage: consent.necessary ? "granted" : "denied"
+    };
+    gtag("consent", "update", consent);
+    localStorage.setItem("consentMode", JSON.stringify(consentMode));
+  }
+</script>
+
+  
+
+<header class="site-header" role="banner">
+  <div class="primary-nav-container">
+    <nav class="desktop-nav">
+      <a class="site-title" href="/">
+        <img id="logo" alt="Jane Street logo" src="/assets/logo_horizontal-16929188a56384c8e77bea91967c4553146ed7293f60a8f4f2ab6a06187881ce.svg">
+      </a>
+      <ul>
+        
+        <li class="tab-label ">
+          
+          
+          <a class="" href="/who-we-are/">
+            <span class="label-text">WHO WE ARE</span>
+            
+          </a>
+        </li>
+        
+        <li class="tab-label ">
+          
+          
+          <a class="has-secondary-nav" href="/what-we-do/overview/">
+            <span class="label-text">WHAT WE DO</span>
+             <svg width="9" height="6" viewBox="0 0 9 6" xmlns="http://www.w3.org/2000/svg">
+  <path d="M7.76694 0.211578C8.04877 -0.0702679 8.50545 -0.0700138 8.78745 0.211578C9.06547 0.489594 9.07291 0.947507 8.78647 1.23111L8.78745 1.23209L5.01498 5.00455C4.87404 5.14536 4.68594 5.21463 4.49741 5.21255V5.21548C4.49276 5.21538 4.48744 5.21362 4.48276 5.21353C4.48159 5.21367 4.48002 5.21455 4.47885 5.21451V5.21353C4.31911 5.20968 4.13189 5.15756 3.97885 5.00455C3.96766 4.9933 3.95757 4.98049 3.9476 4.96841L0.211273 1.23209C-0.0703205 0.950106 -0.0705216 0.49342 0.211273 0.211578C0.457953 -0.0351057 0.83836 -0.0661433 1.1185 0.118805L1.23178 0.211578L4.49936 3.47916L7.76694 0.211578Z"></path>
+</svg>
+ 
+          </a>
+        </li>
+        
+        <li class="tab-label ">
+          
+          
+          <a class="" href="/the-latest/">
+            <span class="label-text">THE LATEST</span>
+            
+          </a>
+        </li>
+        
+        <li class="tab-label ">
+          
+          
+          <a class="has-secondary-nav" href="/culture/overview/">
+            <span class="label-text">CULTURE</span>
+             <svg width="9" height="6" viewBox="0 0 9 6" xmlns="http://www.w3.org/2000/svg">
+  <path d="M7.76694 0.211578C8.04877 -0.0702679 8.50545 -0.0700138 8.78745 0.211578C9.06547 0.489594 9.07291 0.947507 8.78647 1.23111L8.78745 1.23209L5.01498 5.00455C4.87404 5.14536 4.68594 5.21463 4.49741 5.21255V5.21548C4.49276 5.21538 4.48744 5.21362 4.48276 5.21353C4.48159 5.21367 4.48002 5.21455 4.47885 5.21451V5.21353C4.31911 5.20968 4.13189 5.15756 3.97885 5.00455C3.96766 4.9933 3.95757 4.98049 3.9476 4.96841L0.211273 1.23209C-0.0703205 0.950106 -0.0705216 0.49342 0.211273 0.211578C0.457953 -0.0351057 0.83836 -0.0661433 1.1185 0.118805L1.23178 0.211578L4.49936 3.47916L7.76694 0.211578Z"></path>
+</svg>
+ 
+          </a>
+        </li>
+        
+        <li class="tab-label active">
+          
+          
+          <a class="has-secondary-nav" href="/join-jane-street/overview/">
+            <span class="label-text">JOIN JANE STREET</span>
+             <svg width="9" height="6" viewBox="0 0 9 6" xmlns="http://www.w3.org/2000/svg">
+  <path d="M7.76694 0.211578C8.04877 -0.0702679 8.50545 -0.0700138 8.78745 0.211578C9.06547 0.489594 9.07291 0.947507 8.78647 1.23111L8.78745 1.23209L5.01498 5.00455C4.87404 5.14536 4.68594 5.21463 4.49741 5.21255V5.21548C4.49276 5.21538 4.48744 5.21362 4.48276 5.21353C4.48159 5.21367 4.48002 5.21455 4.47885 5.21451V5.21353C4.31911 5.20968 4.13189 5.15756 3.97885 5.00455C3.96766 4.9933 3.95757 4.98049 3.9476 4.96841L0.211273 1.23209C-0.0703205 0.950106 -0.0705216 0.49342 0.211273 0.211578C0.457953 -0.0351057 0.83836 -0.0661433 1.1185 0.118805L1.23178 0.211578L4.49936 3.47916L7.76694 0.211578Z"></path>
+</svg>
+ 
+          </a>
+        </li>
+        
+      </ul>
+      <div class="desktop-search-icon">
+        <img src="/static/img/icon-search.svg">
+      </div>
+      <div class="mobile-nav-toggle-button">
+        <span style="display:none">mobile navigation menu toggle</span>
+        <img class="header-open-icon" src="/assets/icon-menu-c17044c2f4a92db9d8d5fca05645f3035aa7880b9e6230a18dbb4b6789629353.svg">
+        <img class="header-close-icon" src="/assets/icon-x-circle-ce41a957ee46ecbf02a4efce778d3370bbf2419e533a35dacc0094db31eec5a2.svg">
+      </div>
+    </nav>
+  </div>
+
+  <div class="secondary-nav-container">
+    
+    
+    
+    
+    
+    
+    
+    <nav class="desktop-nav" data-link="/what-we-do/overview/">
+      <ul>
+        
+        <li class="tab-label ">
+          <a href="/what-we-do/client-offering/">
+            <span class="label-text body-sm">CLIENT OFFERING</span>
+          </a>
+        </li>
+        
+        <li class="tab-label ">
+          <a href="/what-we-do/global-capital-markets/">
+            <span class="label-text body-sm">GLOBAL CAPITAL MARKETS</span>
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <nav class="desktop-nav" data-link="/culture/overview/">
+      <ul>
+        
+        <li class="tab-label ">
+          <a href="/culture/benefits/">
+            <span class="label-text body-sm">BENEFITS</span>
+          </a>
+        </li>
+        
+        <li class="tab-label ">
+          <a href="/culture/our-offices/">
+            <span class="label-text body-sm">OUR OFFICES</span>
+          </a>
+        </li>
+        
+        <li class="tab-label ">
+          <a href="/culture/street-view/">
+            <span class="label-text body-sm">STREET VIEW</span>
+          </a>
+        </li>
+        
+        <li class="tab-label ">
+          <a href="/puzzles/">
+            <span class="label-text body-sm">PUZZLES</span>
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+    
+    
+    
+    
+    
+    
+    
+    <nav class="desktop-nav" data-link="/join-jane-street/overview/">
+      <ul>
+        
+        <li class="tab-label ">
+          <a href="/join-jane-street/departments/">
+            <span class="label-text body-sm">DEPARTMENTS</span>
+          </a>
+        </li>
+        
+        <li class="tab-label ">
+          <a href="/join-jane-street/open-roles/">
+            <span class="label-text body-sm">OPEN ROLES</span>
+          </a>
+        </li>
+        
+        <li class="tab-label ">
+          <a href="/join-jane-street/programs-and-events/">
+            <span class="label-text body-sm">PROGRAMS AND EVENTS</span>
+          </a>
+        </li>
+        
+        <li class="tab-label ">
+          <a href="/join-jane-street/internships/">
+            <span class="label-text body-sm">INTERNSHIPS</span>
+          </a>
+        </li>
+        
+        <li class="tab-label ">
+          <a href="/join-jane-street/interviewing/">
+            <span class="label-text body-sm">INTERVIEWING</span>
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+    
+    
+    
+  </div>
+
+  <div class="desktop-search-container">
+    <input class="search-input" placeholder="Search all Jane Street content">
+  </div>
+
+
+  <div class="mobile-nav-container">
+
+    <div class="mobile-search-container">
+      <img class="search-icon" src="/static/img/icon-search.svg">
+      <input type="search" inputmode="search" placeholder="Search all Jane Street content" class="search-input">
+    </div>
+
+    <nav class="mobile-nav">
+      <ul>
+        
+        <li class="mobile-nav-item ">
+          
+          
+          <a class="mobile-nav-heading " href="/who-we-are/">
+            Who We Are
+          </a>
+
+          
+
+        </li>
+        
+        <li class="mobile-nav-item ">
+          
+          
+          <a class="mobile-nav-heading has-secondary-nav" href="/what-we-do/overview/">
+            What We Do
+          </a>
+
+          
+          
+          <svg width="9" height="6" viewBox="0 0 9 6" xmlns="http://www.w3.org/2000/svg">
+  <path d="M7.76694 0.211578C8.04877 -0.0702679 8.50545 -0.0700138 8.78745 0.211578C9.06547 0.489594 9.07291 0.947507 8.78647 1.23111L8.78745 1.23209L5.01498 5.00455C4.87404 5.14536 4.68594 5.21463 4.49741 5.21255V5.21548C4.49276 5.21538 4.48744 5.21362 4.48276 5.21353C4.48159 5.21367 4.48002 5.21455 4.47885 5.21451V5.21353C4.31911 5.20968 4.13189 5.15756 3.97885 5.00455C3.96766 4.9933 3.95757 4.98049 3.9476 4.96841L0.211273 1.23209C-0.0703205 0.950106 -0.0705216 0.49342 0.211273 0.211578C0.457953 -0.0351057 0.83836 -0.0661433 1.1185 0.118805L1.23178 0.211578L4.49936 3.47916L7.76694 0.211578Z"></path>
+</svg>
+
+          <ul class="mobile-secondary-nav">
+            <li class="mobile-secondary-nav-item ">
+              <a href="/what-we-do/overview/">OVERVIEW</a>
+            </li>
+            
+            <li class="mobile-secondary-nav-item ">
+              <a href="/what-we-do/client-offering/">CLIENT OFFERING</a>
+            </li>
+            
+            <li class="mobile-secondary-nav-item ">
+              <a href="/what-we-do/global-capital-markets/">GLOBAL CAPITAL MARKETS</a>
+            </li>
+            
+          </ul>
+          
+          
+
+        </li>
+        
+        <li class="mobile-nav-item ">
+          
+          
+          <a class="mobile-nav-heading " href="/the-latest/">
+            The Latest
+          </a>
+
+          
+
+        </li>
+        
+        <li class="mobile-nav-item ">
+          
+          
+          <a class="mobile-nav-heading has-secondary-nav" href="/culture/overview/">
+            Culture
+          </a>
+
+          
+          
+          <svg width="9" height="6" viewBox="0 0 9 6" xmlns="http://www.w3.org/2000/svg">
+  <path d="M7.76694 0.211578C8.04877 -0.0702679 8.50545 -0.0700138 8.78745 0.211578C9.06547 0.489594 9.07291 0.947507 8.78647 1.23111L8.78745 1.23209L5.01498 5.00455C4.87404 5.14536 4.68594 5.21463 4.49741 5.21255V5.21548C4.49276 5.21538 4.48744 5.21362 4.48276 5.21353C4.48159 5.21367 4.48002 5.21455 4.47885 5.21451V5.21353C4.31911 5.20968 4.13189 5.15756 3.97885 5.00455C3.96766 4.9933 3.95757 4.98049 3.9476 4.96841L0.211273 1.23209C-0.0703205 0.950106 -0.0705216 0.49342 0.211273 0.211578C0.457953 -0.0351057 0.83836 -0.0661433 1.1185 0.118805L1.23178 0.211578L4.49936 3.47916L7.76694 0.211578Z"></path>
+</svg>
+
+          <ul class="mobile-secondary-nav">
+            <li class="mobile-secondary-nav-item ">
+              <a href="/culture/overview/">OVERVIEW</a>
+            </li>
+            
+            <li class="mobile-secondary-nav-item ">
+              <a href="/culture/benefits/">BENEFITS</a>
+            </li>
+            
+            <li class="mobile-secondary-nav-item ">
+              <a href="/culture/our-offices/">OUR OFFICES</a>
+            </li>
+            
+            <li class="mobile-secondary-nav-item ">
+              <a href="/culture/street-view/">STREET VIEW</a>
+            </li>
+            
+            <li class="mobile-secondary-nav-item ">
+              <a href="/puzzles/">PUZZLES</a>
+            </li>
+            
+          </ul>
+          
+          
+
+        </li>
+        
+        <li class="mobile-nav-item active">
+          
+          
+          <a class="mobile-nav-heading has-secondary-nav" href="/join-jane-street/overview/">
+            Join Jane Street
+          </a>
+
+          
+          
+          <svg width="9" height="6" viewBox="0 0 9 6" xmlns="http://www.w3.org/2000/svg">
+  <path d="M7.76694 0.211578C8.04877 -0.0702679 8.50545 -0.0700138 8.78745 0.211578C9.06547 0.489594 9.07291 0.947507 8.78647 1.23111L8.78745 1.23209L5.01498 5.00455C4.87404 5.14536 4.68594 5.21463 4.49741 5.21255V5.21548C4.49276 5.21538 4.48744 5.21362 4.48276 5.21353C4.48159 5.21367 4.48002 5.21455 4.47885 5.21451V5.21353C4.31911 5.20968 4.13189 5.15756 3.97885 5.00455C3.96766 4.9933 3.95757 4.98049 3.9476 4.96841L0.211273 1.23209C-0.0703205 0.950106 -0.0705216 0.49342 0.211273 0.211578C0.457953 -0.0351057 0.83836 -0.0661433 1.1185 0.118805L1.23178 0.211578L4.49936 3.47916L7.76694 0.211578Z"></path>
+</svg>
+
+          <ul class="mobile-secondary-nav">
+            <li class="mobile-secondary-nav-item active">
+              <a href="/join-jane-street/overview/">OVERVIEW</a>
+            </li>
+            
+            <li class="mobile-secondary-nav-item ">
+              <a href="/join-jane-street/departments/">DEPARTMENTS</a>
+            </li>
+            
+            <li class="mobile-secondary-nav-item ">
+              <a href="/join-jane-street/open-roles/">OPEN ROLES</a>
+            </li>
+            
+            <li class="mobile-secondary-nav-item ">
+              <a href="/join-jane-street/programs-and-events/">PROGRAMS AND EVENTS</a>
+            </li>
+            
+            <li class="mobile-secondary-nav-item ">
+              <a href="/join-jane-street/internships/">INTERNSHIPS</a>
+            </li>
+            
+            <li class="mobile-secondary-nav-item ">
+              <a href="/join-jane-street/interviewing/">INTERVIEWING</a>
+            </li>
+            
+          </ul>
+          
+          
+
+        </li>
+        
+
+        <li class="mobile-nav-item ">
+          <a class="mobile-nav-heading" href="/contact-us">
+            CONTACT US
+          </a>
+        </li>
+      </ul>
+      <div class="nav-footer">
+        <ul>
+          <li><a class="mobile-nav-footer-item" href="/disclosures-and-policies/">Disclosures &amp; Policies</a></li>
+          <li><a class="mobile-nav-footer-item" href="/privacy-notice/">Privacy</a></li>
+          <li><a class="mobile-nav-footer-item" href="/fraud-and-impersonation-warnings/">Fraud and Impersonation
+              Warnings</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+</header>
+
+  <div class="site-wrap">
+    
+
+
+
+
+
+
+
+    <main class="page-content
+        
+        " aria-label="Content">
+      <div class="page-background-image-wrapper">
+<div class="page-background-image-desktop">
+  
+
+   <img class="tile l-1" src="/assets/page-bg-img-join-jane-street/l-1-ab5cfbb26aa2ac61b79e46de822118207ad515b7b1c85550ca4e1bd775e78d32.svg">
+<img class="tile l-2" src="/assets/page-bg-img-join-jane-street/l-2-e0c7d4ee1abe4bc56310276f04a9a1a324525dfac92b0dba8e631f880a065f0a.svg">
+<img class="tile l-3" src="/assets/page-bg-img-join-jane-street/l-3-4e3ab28664714e87dfef2d88ffb143fc459e198bc0777c33df36bc6a5b69af7c.svg">
+<img class="tile l-4" src="/assets/page-bg-img-join-jane-street/l-4-0b13a4cb8d5769ea8961d90cc68e2f0a73196117a4749b6c269895b68dac19bc.svg">
+<img class="tile l-7" src="/assets/page-bg-img-join-jane-street/l-7-a5ff0b4dc8dabacf8892ae2ff66c37310e9bcb9c408f8b91d2331e36622e5763.svg">
+<img class="tile l-5 green" src="/assets/page-bg-img-join-jane-street/l-5-3429f9fb7e7082df56555fc749368ec42037bb3dd62e386ebacf1796a2066533.svg">
+<img class="tile l-6 green" src="/assets/page-bg-img-join-jane-street/l-6-68f94bcc0428ebbfde81404a8bd1af76268634a91973c807f833144b9f16ae36.svg">
+<img class="tile r-1" src="/assets/page-bg-img-join-jane-street/r-1-f493076cadeaef9af602d3cda53f332eb9be52ae498d2c20751c40ae21f30a31.svg">
+<img class="tile r-2" src="/assets/page-bg-img-join-jane-street/r-2-e89075e64678702cb80c687a6b75ea46bebbb3bcade219b00301d079ffd581a9.svg">
+<img class="tile r-3" src="/assets/page-bg-img-join-jane-street/r-3-3c3bf439bfe22217a774142b157f693ca74b6f8dec7a84a7e0c3746aae91ab36.svg">
+<img class="tile r-4" src="/assets/page-bg-img-join-jane-street/r-4-bc1c7cb0764d8a8336654a724afff1e638fe5d3cb418badbb1e40e9a503012dd.svg">
+<img class="tile r-7" src="/assets/page-bg-img-join-jane-street/r-7-0648fe88fdad6d89025e2a1f7f6523501da2c92f609a5b4746ec57a3e56883ec.svg">
+<img class="tile r-9" src="/assets/page-bg-img-join-jane-street/r-9-3fdc28acdf5badf553bda86c08f24f3971946faeda412ebf394604e6aaba617b.svg">
+<img class="tile r-10" src="/assets/page-bg-img-join-jane-street/r-10-bbe15feb03130557cf7ce693cf796fcf804c8464b155251a3a12facb197bb3ea.svg">
+<img class="tile r-11" src="/assets/page-bg-img-join-jane-street/r-11-81f922f805d63c527b1bcf1caaff29e83878ff8ce098ae83638e245a7b506b36.svg">
+<img class="tile r-5 green" src="/assets/page-bg-img-join-jane-street/r-5-881c247f12e338dbbae9ac983174d16910fff383791b88503c0841d00d126820.svg">
+<img class="tile r-6 green" src="/assets/page-bg-img-join-jane-street/r-6-ec4433bf2dae20112fa6b8a5dba3059e9ceb3d6da88b383c75422361e18d0aed.svg">
+<img class="tile r-8 green" src="/assets/page-bg-img-join-jane-street/r-8-7efe1caab8595991ebc4b6d94d492629dc48ab77fd02a5087e459165fb3ffe89.svg">
+
+  
+</div>
+
+<div class="page-background-image-mobile">
+  
+   <img src="/assets/page-bg-img-join-jane-street-mobile-b1ecf1f7a4178802e8907957196c8928da129e9ed678cb7871b4cbe0192360f1.svg">
+  
+
+  
+</div>
+</div>
+
+
+
+<!--  -->
+
+<div class="container">
+  <div class="row">
+	
+<div class="col col-12 page-heading-container">
+  <div class="inner-wrapper">
+<h1 id="work-where-your-mind-matters">Work where your <br>mind matters</h1>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="row intro">
+	
+<div class="col col-12 page-column">
+  <div class="inner-wrapper">
+<h3>We look for smart people with curious minds from any background.</h3>
+
+<div class="buffer"></div>
+
+<p class="featured-content">Learn more about who we are, where we're hiring, what it's like to work here, and what we offer our employees. When you're ready, take a look at our open roles.</p>
+
+<div class="open-roles-cards-container ">
+  <a class="open-roles-card open-roles-card-experienced" href="/join-jane-street/open-roles/?type=experienced-candidates">
+    <div class="open-roles-card-text">
+      <h3>Experienced Candidates</h3>
+      <p><span class="alright-sans-medium">Space to solve hard problems.</span> Jane Street is always looking for
+        experienced hires to help us grow our&nbsp;capabilities.</p>
+    </div>
+    <button class="v4-button v4-secondary-button">
+  <span class="label">View open roles</span></button>
+
+  </a>
+
+  <a class="open-roles-card open-roles-card-students" href="/join-jane-street/open-roles/?type=students-and-new-grads">
+    <div class="open-roles-card-text">
+      <h3>Students and New Grads</h3>
+      <p><span class="alright-sans-medium">Exceptional opportunities.</span> Roles for new grads and interns are an
+        investment in the future of Jane&nbsp;Street.</p>
+    </div>
+    <button class="v4-button v4-secondary-button">
+  <span class="label">View open roles</span></button>
+
+  </a>
+</div>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="page-column our-groups-outer row">
+	
+<div class="col-12 step-inside-our-office">
+	
+<div class="our-groups">
+	
+<div class="row margin-top-50">
+	
+<div class="col-12 col-md-8">
+	
+<h4 class="section-subheader margin-bottom-20" id="our-groups">OUR GROUPS</h4>
+
+<h5 id="trading-research-and-machine-learning">TRADING, RESEARCH, AND MACHINE LEARNING</h5>
+<p>At Jane Street, trading, research and machine learning roles combine to form a collaborative quantitative team. These teams work together to develop the mathematical models and automated trading strategies that drive our business. Over the past couple decades, we’ve been at the forefront of applying machine learning techniques to quantitative finance, tackling research problems ranging from sub-microsecond trading to uncovering long-term market inefficiencies across trillions of historic events.</p>
+
+<h5 class="margin-top-50" id="technology">TECHNOLOGY</h5>
+<p>Technology is central to everything we do. Most Jane Streeters write
+code as part of their regular work, and we build almost all our
+software in-house with a focus on productivity, real-time visibility,
+and reliability. Twenty years of using and applying the most advanced
+tools available has earned us a reputation for excellence in tech; our
+technical infrastructure and software engineers drive Jane Street’s
+growth and generate our competitive edge.</p>
+
+<h5 class="margin-top-50" id="institutional-sales-and-trading">INSTITUTIONAL SALES AND TRADING</h5>
+<p>Our sales traders and product specialists partner with a wide variety
+of institutional clients to provide trading solutions and access to
+Jane Street’s differentiated liquidity. By combining trading
+expertise, market knowledge, and a deep understanding of the liquidity
+needs of asset managers, pensions, insurance companies, and others,
+these professionals help institutions achieve their trading goals.</p>
+
+<h5 class="margin-top-50" id="infrastructure">INFRASTRUCTURE</h5>
+<p>Our infrastructure teams form the backbone of Jane Street, keeping the
+day-to-day operations of the firm running seamlessly. They handle our
+legal and compliance matters, see to our taxes and finances, manage
+our offices and human resources, and direct our creative projects.</p>
+
+<p class="arrow-link margin-top-50">
+	<a href="/join-jane-street/departments/">
+		<span class="font-weight-medium">TAKE A DEEPER LOOK</span>
+		
+			<span class="arrow-link-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none"><path d="M8.03621 0.626668L14.1962 6.79111L-0.101563 6.79111L-0.101563 7.68L14.1962 7.68L8.03621 13.84L8.66288 14.4667L15.8984 7.23556L15.8984 7.23112L8.66732 -3.16082e-07L8.03621 0.626668Z" fill="currentColor"></path></svg>
+</span>
+		
+	</a>
+</p>
+
+
+</div>
+
+<div class="network-graph-container col-sm-4 col-12">
+<div id="network-graph"></div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+<div class="page-column row our-culture">
+	
+<div class="col-12">
+	
+<h2 class="section-title" id="our-culture">Our culture</h2>
+
+<p class="featured-content">Our people are our most important asset and our benefits extend beyond the status quo.</p>
+
+<div class="center diversity-matters">
+	
+<h5 id="diversity-matters">DIVERSITY MATTERS</h5>
+
+<h3 id="our-company-is-only-as-strong-as-its-people-and-its-only-by-embracing-people-of-all-backgrounds-that-we-can-reach-our-full-potential">Our company is only as strong as its people, and it’s only by embracing people of all backgrounds that we can reach our full potential.</h3>
+
+
+</div>
+
+<div class="benefits-section margin-top-50">
+	
+<h5 id="benefits">BENEFITS</h5>
+
+<p class="semi-featured-content">Our offices and location benefits are each a little bit different
+though there are some features that can be found in every location.
+Each office has an on-site gym, a library, classrooms or auditoriums,
+nursing suites, quiet rooms, recreation spaces and lots of amazing
+food! Below is an overview of the benefits we offer. For a more
+comprehensive look, please visit our <strong><a href="/culture/benefits/">Benefits
+page</a></strong>.</p>
+
+<div class="grid benefits-callout row equal margin-top-50">
+	
+<div class="col-12 col-md-6 col-lg-4">
+    
+<div class="js-card-link Health and Wellness with-img ">
+    <div class="inner-wrapper">
+        <a href="/culture/benefits/">
+            <div class="image-wrapper">
+                
+                    <img src="/assets/new/benefits-health-and-wellness-1-11e8155e19a4976f6276ed69053dbebe0f5954b91126acc1f9e72d46b45de862.png">
+                
+            </div>
+            <div class="text-wrapper">
+                <h6 class="type">Health and Wellness</h6>
+                <h3 class="header-text">Gyms, nursing suites, quiet rooms, health services and more</h3>
+                
+            </div>
+        </a>
+    </div>
+</div>
+
+
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+    
+<div class="js-card-link Food &amp; Amenities with-img ">
+    <div class="inner-wrapper">
+        <a href="/culture/benefits/">
+            <div class="image-wrapper">
+                
+                    <img src="/assets/new/benefits-food-1-a8680d847547bd9758be31980faf4ad8cc3d5f10c24a8dfdacf21abdcbab1956.png">
+                
+            </div>
+            <div class="text-wrapper">
+                <h6 class="type">Food &amp; Amenities</h6>
+                <h3 class="header-text">Daily breakfast and lunch, fully-stocked kitchens, rec areas...</h3>
+                
+            </div>
+        </a>
+    </div>
+</div>
+
+
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+    
+<div class="js-card-link Learning &amp; Development with-img ">
+    <div class="inner-wrapper">
+        <a href="/culture/benefits/">
+            <div class="image-wrapper">
+                
+                    <img src="/assets/new/benefits-ld-1-47aa322421bccf9be13c8f40f549df5783aa9ac31428b6bd6c92059fad0a0183.png">
+                
+            </div>
+            <div class="text-wrapper">
+                <h6 class="type">Learning &amp; Development</h6>
+                <h3 class="header-text">Spaces and programs for learning</h3>
+                
+            </div>
+        </a>
+    </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+<div class="row offices">
+	
+<div class="col col-12 page-column">
+  <div class="inner-wrapper">
+<div class="our-offices-callout ">
+
+
+    <div class="column left">
+        <div class="content-container">
+            <h5>OUR OFFICES</h5>
+            <h3>Beautiful spaces around the globe</h3>
+            <p>Jane Street has offices in some of the world’s most dynamic cities, including a presence in Amsterdam, Chicago, Hong Kong, London, New York and Singapore. Take a look inside our largest offices:</p>
+            <div class="tab-buttons-container">
+              
+<div class="tab-button nyc">
+  <a class="tab-button-anchor nyc" href="/culture/our-offices/?office=nyc">
+    <div class="tab-button-hover-zone nyc">
+      <div class="tab-button-base nyc">
+        <div class="tab-button-slide-bg nyc"></div>
+        <p class="tab-button-label nyc">New York</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+              
+<div class="tab-button ldn">
+  <a class="tab-button-anchor ldn" href="/culture/our-offices/?office=ldn">
+    <div class="tab-button-hover-zone ldn">
+      <div class="tab-button-base ldn">
+        <div class="tab-button-slide-bg ldn"></div>
+        <p class="tab-button-label ldn">London</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+              
+<div class="tab-button hkg">
+  <a class="tab-button-anchor hkg" href="/culture/our-offices/?office=hkg">
+    <div class="tab-button-hover-zone hkg">
+      <div class="tab-button-base hkg">
+        <div class="tab-button-slide-bg hkg"></div>
+        <p class="tab-button-label hkg">Hong Kong</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+              
+<div class="tab-button sgp">
+  <a class="tab-button-anchor sgp" href="/culture/our-offices/?office=sgp">
+    <div class="tab-button-hover-zone sgp">
+      <div class="tab-button-base sgp">
+        <div class="tab-button-slide-bg sgp"></div>
+        <p class="tab-button-label sgp">Singapore</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="column right">
+        <img class="placeholder" src="/assets/new/offices-callout-placeholder-8f22f3c58eb51bec32256926220bf9fd6852a1000db1f76fe545d78e45b2b4f6.png">
+        <img class="nyc" src="/assets/offices-header-nyc-6036243e3a92b9e0cdb6f58bd6d74562007762cb281af148f77e946a51c19a54.png">
+        <img class="ldn" src="/assets/offices-header-ldn-a6e7e783b6fd3791f15e3f2de9b2a2ab48e67abcbb228bbed71997c61130b536.png">
+        <img class="hkg" src="/assets/offices-header-hkg-863efe6f01b885fdb8fe300a7be8be45a0358568084f341d0469b50d16279273.png">
+        <img class="sgp" src="/assets/offices-header-sgp-6544cf71355bd797fc7b56423d7e76c305dfeceb01602b3bdfe7b21498365e90.png">
+        <img class="placeholder-mobile" src="/assets/new/offices-callout-placeholder-mobile-43901bd67a52209c054ebc577668143eb2aa46ef015b9364ee01f6748a4d293b.png">
+        <div class="eyelid top"></div>
+        <div class="eyelid bottom"></div>
+    </div>
+
+
+</div>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="modal fade slate-star-modal" id="slate-star-modal" role="dialog" aria-hidden="true" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content content-box">
+            <div class="modal-header">
+                <h5 class="modal-title">Solution</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="puzzle col-12 center">
+  
+
+
+
+  <img id="sierpinski-puzzle" class="" src="/assets/sierpinski-puzzle-6882d2158d5c41061f24998dc7270815bc8a1d4177b0e3d7d7c274b041b8a511.png">
+
+
+
+  <p class="show-solution" id="show-sierpinski-solution">
+    <strong>Show me the answer</strong>
+  </p>
+</div>
+<div id="sierpinski-solution" class="hide col-12">
+  <p>
+    \(\def\V{\mathrm{Var}}\)
+    Overview: the self-symmetry of the Sierpinski triangle leads to
+  a linear equation that \(\Sigma\) must satisfy; specifically,
+  \(\Sigma = \tfrac{1}{4}\Sigma + \tfrac{1}{24}I\), which gives
+  \(\fbox{\(\Sigma = \tfrac{1}{18}I\)}\).
+  </p>
+  <p>Without rigorously defining the uniform distribution over the
+  Sierpinski triangle, we can at least recognize that there are
+  certain properties it should have.  The first relevant property is
+  that it's invariant under rotation by 120°;
+  it follows that \(\Sigma = kI\) for some \(k\).  (Consider:
+  The ellipse \(\mathbf{x}^*\Sigma^{-1} \mathbf{x} = 1\) will be invariant under this
+  rotation, and the only ellipses invariant under this rotation
+  are circles.)  We have \(k = \Sigma_{11} = \V(X_1)\), so we
+  have reduced the problem to finding \(\V(X_1)\).</p>
+  <p>The next relevant property of the distribution is that it's
+  equal to a mixture of 3 equally weighted copies of itself, with
+  each copy scaled by 1/2 and translated by
+  \((1/4,\text{something}),(-1/4,\text{something})\), or
+  \((0,\text{something})\).  (The somethings are respectively
+  \(-\sqrt{3}/12,-\sqrt{3}/12,\sqrt{3}/6\), but we don't need
+  them.)  In particular, if \(T\) is uniform over
+  \(\{-1/4,0,1/4\}\) (and independent of \(X_1\)), then \(X_1\)
+  has the same distribution as \(\tfrac{1}{2}X_1 + T\).  We can
+  directly compute \(\V(T) = 1/24\), and we then have
+  \[
+  \begin{align}
+  k = \V(X_1) &amp;= \V(\tfrac{1}{2}X_1 + T)\\
+  &amp;= \tfrac{1}{4}\V(X_1) + \V(T)\\
+  &amp;= \tfrac{1}{4}k + 1/24,
+  \end{align}
+  \]
+  and solving for \(k\) now yields \(k = 1/18\), so \(\Sigma = \tfrac{1}{18}I\).
+  </p>
+  <p>A similar approach is to write \(X_1 = \sum_{n=0}^\infty
+  \frac{1}{2^n}T_n\) where the \(T_n\) are independent copies of \(T\).
+  Then \(\V(X_1) = \sum_{n=0}^\infty \V(\frac{1}{2^n}T_n) =
+  \frac{1}{24} \sum_{n=0}^\infty \frac{1}{4^n} = 1/18\).</p>
+  <p class="more-puzzles">If you liked this puzzle, check out more puzzles <a href="/puzzles/" class="highlighted" target="_blank">here</a>.</p>
+  <p><b>Learn more about Jane Street <a class="highlighted" href="/">here</a>.</b></p>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal-3b1b" role="dialog" aria-hidden="true" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Solution</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body center">
+              <div class="puzzle col-12">
+                  <div class="img-wrapper">
+
+
+
+  <img id="3b1b-shape.gif" class="" src="/assets/3b1b-shape-903c131b1edde47d3b11f00ebca017d7befb240a5d8550a7529a56ac9ce76a4c.gif">
+
+
+</div>
+                  <p>Let \(C \subseteq \mathbb{R}^3\) be a closed bounded convex set.</p>
+                  <p>Let \(B = \partial C\) be its boundary. Let \(D = B + B = \{\,p+q\mid p,q\in B\,\}\).</p>
+                  <p>Prove that \(D\) is convex.</p>
+                  <p class="show-solution" id="show-3b1b-solution">Show me the answer.</p>
+              </div>
+              <div id="solution-3b1b" class="solution hide col-12">
+                  <div class="img-wrapper">
+
+
+
+  <img id="3b1b-shape-solution.gif" class="" src="/assets/3b1b-shape-solution-5fce6f87192c08bcb3d58827011094262fea03df86271ab6b646f0ca75131eee.gif">
+
+
+</div>
+                  <p>Actually, let us start by considering the 2-dimensional case. Let
+                      \(E = \{\,(p+q)/2\mid p,q\in B\,\}\); this is just a scaled down \(D\), so it
+                      is enough to show that \(E\) is convex. It suffices to show \(E = C\).
+                      \(E\subseteq C\) follows by the convexity of \(C\). For \(C\subseteq E\),
+                      take any point \(p\in C\). If \(p\in B\), then \(p = (p+p)/2 \in E\). If
+                      \(p\notin B\), imagine drawing a vertical line through \(p\), and then
+                      continuously rotating that line counterclockwise (about \(p\)) by
+                      \(180^\circ\). It will intersect \(B\) in two points, one to either side
+                      of \(p\). By the Intermediate Value Theorem, there will be some angle
+                      at which these two points are equidistant from \(p\); then \(p\) is the
+                      average of those other two points, so \(p\in E\). We now have \(E = C\),
+                      so \(E\) is convex.</p>
+
+                  <p>In 3 (or more dimensions) you can apply essentially the same
+                      argument. When you reach the \(p\notin B\) case, just pick any plane
+                      containing \(p\), and use the above argument within that plane.</p>
+
+                  <p>(In the case \(C = \emptyset\), the above still applies, though
+                      some aspects are vacuous.)</p>
+
+                  <div class="video-wrapper">
+                      <div class="ratio ratio-16x9">
+    <iframe src="https://www.youtube-nocookie.com/embed/HTfa2UF_oiI" width="100%" height="100%" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+                  </div>
+                  <p>If you landed here from the 3Blue1Brown video and are curious for
+                      more on Fourier, our talk, <a href="https://www.youtube.com/watch?v=HTfa2UF_oiI&amp;feature=youtu.be" target="_blank">Echoes of Fourier</a> is available above and on
+                      YouTube. If you’re interested in more puzzles, <a href="/puzzles/" target="_blank">click here</a>.</p>
+                  <p>If you’re interested in working at Jane Street, <a href="/join-jane-street/open-roles/" target="_blank">click here to
+                      apply</a>.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+</div>
+
+    </main>
+    <footer>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12">
+        <ul class="flex-container">
+          
+            
+              
+                <li><a href="/who-we-are/" class="font-weight-medium">Who We Are</a></li>
+              
+            
+          
+            
+              
+                <li><a href="/what-we-do/overview/" class="font-weight-medium">What We Do</a></li>
+              
+            
+          
+            
+              
+                <li><a href="/the-latest/" class="font-weight-medium">The Latest</a></li>
+              
+            
+          
+            
+              
+                <li><a href="/culture/overview/" class="font-weight-medium">Culture</a></li>
+              
+            
+          
+            
+              
+                <li><a href="/join-jane-street/overview/" class="font-weight-medium">Join Jane Street</a></li>
+              
+            
+          
+            
+              
+                <li><a href="/contact-us/" class="font-weight-medium">Contact Us</a></li>
+              
+            
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 flex-container">
+
+        <div class="disclosures">
+          <p class="caption">
+            <a href="/disclosures-and-policies/">Disclosures and Policies</a><span class="divider">|</span>
+            <a href="/privacy-notice/">Privacy</a><span class="divider">|</span>
+            <a href="/ad-cookie-policy/">Cookies</a><span class="divider">|</span>
+            <a href="/fraud-and-impersonation-warnings/">Fraud and Impersonation Warnings</a>
+          </p>
+        </div>
+
+        <div class="eoe">
+          <p class="caption">Jane Street is an Equal Opportunity Employer</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+
+        <p class="caption copyright">
+          © 2026 Jane Street Group, LLC. All rights reserved. Services are provided in the U.S. by Jane Street Capital, LLC and Jane Street Execution Services, LLC, each of which is a SEC-registered broker
+          dealer and member of FINRA (<a href="https://www.finra.org/">www.finra.org</a>). Regulated activities are undertaken in Europe by Jane Street Financial Limited, an investment firm authorized and regulated by the U.K. Financial
+          Conduct Authority, and Jane Street Netherlands B.V., an investment firm authorized and regulated by the Netherlands Authority for the Financial Markets (<i>Autoriteit Financiële Markten</i>), and in Hong Kong by Jane Street Hong
+          Kong Limited, a regulated entity under the Hong Kong Securities and Futures Commission (CE No. BAL548). Each of these entities is a wholly owned subsidiary of Jane Street Group, LLC. This material is provided for informational
+          purposes only and does not constitute an offer or solicitation for the purchase or sale of any security or other financial instrument.<span class="divider">|</span>Jane Street and the concentric circle mark are registered
+          trademarks of Jane Street.
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<script type="text/javascript" src="/assets/main-37287fc06bbcaa8f5747a26a4c014908975668cd94863568689301a36d94d0a0.js"></script>
+
+
+  
+    <script type="text/javascript" src="/assets/vendor/sigma.min-a770c3b1be75882c51e11dc80267d2bc95439ec6e5f45ea9d930f85059c4d7a5.js"></script>
+  
+    <script type="text/javascript" src="/assets/vendor/sigma.parsers.json-44d4083397ec7114c828cbf3ef948c4516d8b0fb9f07292bb4d1eda7d00d5bfd.js"></script>
+  
+    <script type="text/javascript" src="/assets/vendor/sigma-plugin-forceAtlas2.min-ac45610b0a4c01dd743bcdfe513f070d5173e2d99cac8bacca52c8439b4b7b32.js"></script>
+  
+    <script type="text/javascript" src="/assets/vendor/sigma-plugin-dragNodes.min-23b868db554a49dac0e927d289a5efbbb246ba7ede7b08df9aef7591e81a389e.js"></script>
+  
+    <script type="text/javascript" src="/assets/pg/js-depts-bubble-chart-a2155015040d7a95c08764e0bdbde1d826961248a1c234d8030e12ea84f2954d.js"></script>
+  
+    <script type="text/javascript" src="/assets/pg/join-jane-overview-225d982484e6ddee37fd3ce20f39c8fdb7a1819541492884f156365605078595.js"></script>
+  
+  
+
+
+  </div>
+
+
+
+</body></html>
