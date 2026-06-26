@@ -2,7 +2,7 @@ import os
 from playwright.sync_api import sync_playwright
 from .load_data import load_companies
 
-os.makedirs("outputs/html", exist_ok=True)
+os.makedirs("outputs/comapnies_front_page_html", exist_ok=True)
 
 companies = load_companies()
 
@@ -30,7 +30,7 @@ with sync_playwright() as p:
             filename = company["company"].replace(" ", "_") + ".html"
 
             with open(
-                f"outputs/html/{filename}",
+                f"outputs/comapnies_front_page_html/{filename}",
                 "w",
                 encoding="utf-8"
             ) as f:

@@ -7,4 +7,4 @@ JOB_SCHEMA = {
     "apply_link": "",
     "career_page": "",
     "description": ""
-}
+}   
