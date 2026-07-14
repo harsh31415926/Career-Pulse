@@ -43,7 +43,7 @@ Return ONLY valid JSON.
 Schema:
 
 [
-    {
+    {{
         "company": "",
         "role": "",
         "location": "",
@@ -51,7 +51,7 @@ Schema:
         "experience": "",
         "description": "",
         "apply_link": ""
-    }
+    }}
 ]
 
 Career Page Text:
