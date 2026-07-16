@@ -1,0 +1,57 @@
+[
+    {
+        "company": "Citadel",
+        "role": "Site Reliability Engineering",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.citadel.com/careers/engineering/site-reliability-engineering/",
+        "match_score": 4,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "Citadel",
+        "role": "Equity Quantitative Research",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.citadel.com/what-we-do/equities/equity-quantitative-research-eqr/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "Citadel",
+        "role": "Quantitative Research",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.citadel.com/careers/quantitative-research",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "Citadel",
+        "role": "Quantitative Research",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.citadel.com/careers/open-opportunities/quantitative-research",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "Citadel",
+        "role": "Quantitative ResearchQuantitative ResearchBuild predictive models to better understand dynamic global markets.Explore Working as a QuantitativeResearcher",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.citadel.com/careers/quantitative-research/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    }
+]

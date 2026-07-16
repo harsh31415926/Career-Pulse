@@ -1,0 +1,35 @@
+[
+    {
+        "company": "KPMG",
+        "role": "AI and Technology",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://kpmg.com/xx/en/our-insights/ai-and-technology.html",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "KPMG",
+        "role": "Consumer, Retail & Leisure",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://kpmg.com/xx/en/what-we-do/industries/consumer-retail-and-leisure.html",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "KPMG",
+        "role": "AI",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://kpmg.com/xx/en/what-we-do/services/ai.html",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    }
+]

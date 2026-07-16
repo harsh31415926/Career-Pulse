@@ -1,0 +1,112 @@
+[
+    {
+        "company": "NVIDIA",
+        "role": "OverviewAdd intelligence and efficiency to your business with AI and machine learning",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.nvidia.com/en-us/solutions/ai/",
+        "match_score": 5,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "NVIDIA",
+        "role": "DGX CloudNVIDIA’s AI factory in the cloud",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.nvidia.com/en-us/data-center/dgx-cloud/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "NVIDIA",
+        "role": "Private RegistryGuide for using NVIDIA NGC private registry with GPU cloud",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://docs.nvidia.com/ngc/latest/ngc-private-registry-user-guide.html",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "NVIDIA",
+        "role": "NVIDIA NGCAccelerated, containerized AI models and SDKs",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.nvidia.com/en-us/gpu-cloud/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "NVIDIA",
+        "role": "DSX PlatformBuild AI factories optimized for lowest cost tokens per megawatt",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.nvidia.com/en-us/data-center/products/dsx/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "NVIDIA",
+        "role": "DGX PlatformEnterprise AI factory for model development and deployment",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "NVIDIA",
+        "role": "HGX PlatformA supercomputer purpose-built for AI and HPC",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.nvidia.com/en-us/data-center/hgx/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "NVIDIA",
+        "role": "IGX PlatformAdvanced functional safety and security for edge AI",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.nvidia.com/en-us/edge-computing/products/igx/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "NVIDIA",
+        "role": "InfiniBandHigh-performance networking for super computers, AI, and cloud data centers",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.nvidia.com/en-us/networking/products/infiniband/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "NVIDIA",
+        "role": "AI DataPowering a new class of enterprise infrastructure for AI",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.nvidia.com/en-us/data-center/ai-data-platform/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    }
+]

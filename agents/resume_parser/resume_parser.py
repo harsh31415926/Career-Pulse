@@ -1,4 +1,7 @@
-import fitz
+try:
+    import pymupdf
+except ImportError:  # PyMuPDF historically exposed this module name.
+    import fitz as pymupdf
 
 ''' ============: LOCAL IMPORTS :==============='''
 
@@ -9,7 +12,7 @@ from agents.resume_parser.agents_prompts import RESUME_PARSER_PROMPT
 ''' ====================: Extract Text from Resume :=================== '''
 
 def resume_parser(pdf_path):
-    doc = fitz.open(pdf_path)
+    doc = pymupdf.open(pdf_path)
 
     text = ''
 

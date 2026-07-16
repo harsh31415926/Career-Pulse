@@ -1,0 +1,24 @@
+[
+    {
+        "company": "Stripe",
+        "role": "supply chains moving",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.pymnts.com/transportation/2022/stripe-sees-surge-in-platforms-and-digital-payments-aimed-at-truckers-productivity-problems/",
+        "match_score": 3,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "Stripe",
+        "role": "building a global digital dealership",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.cnbc.com/2022/01/17/ford-signs-five-year-payments-deal-with-stripe-for-e-commerce-drive.html",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    }
+]

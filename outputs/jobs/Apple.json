@@ -1,0 +1,24 @@
+[
+    {
+        "company": "Apple",
+        "role": "Software engineer",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://jobs.apple.com/en-us/search?search=%22Software+Engineer%22&sort=relevance&location=united-states-USA",
+        "match_score": 4,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "Apple",
+        "role": "Apple Retail",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://jobs.apple.com/careers/uk/work-at-apple/retail.html",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    }
+]

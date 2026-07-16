@@ -1,0 +1,46 @@
+[
+    {
+        "company": "IMC Trading",
+        "role": "Principal Machine Learning EngineerExperiencedTechnologyChicago, New York",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://careers.imc.com/eu/careers/jobs/4721116101",
+        "match_score": 8,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "IMC Trading",
+        "role": "Machine Learning EngineerExperiencedTechnologyAmsterdam, London",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://careers.imc.com/eu/careers/jobs/4567047101",
+        "match_score": 8,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "IMC Trading",
+        "role": "Machine Learning EngineerExperiencedTechnologyHong Kong, Sydney",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://careers.imc.com/eu/careers/jobs/4908869101",
+        "match_score": 8,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "IMC Trading",
+        "role": "Quantitative TraderExperiencedTradingMumbai",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://careers.imc.com/eu/careers/jobs/4354086101",
+        "match_score": 3,
+        "source": "resume_link_fallback"
+    }
+]

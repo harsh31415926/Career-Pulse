@@ -1,0 +1,112 @@
+[
+    {
+        "company": "Plaid",
+        "role": "GitHub",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://github.com/plaid",
+        "match_score": 3,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "Plaid",
+        "role": "Investments MoveStreamline asset transfers. Unlock growth.",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://plaid.com/products/investments-move/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "Plaid",
+        "role": "MonitorAML watchlist screening",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://plaid.com/products/monitor/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "Plaid",
+        "role": "KYC & AML compliance",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://plaid.com/use-cases/kyc-aml-compliance/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "Plaid",
+        "role": "See role",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://plaid.com/careers/openings/data/machine-learning-engineer-research-scientist-dfai/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "Plaid",
+        "role": "See role",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://plaid.com/careers/openings/data/staff-machine-learning-engineer-research-scientist-dfai/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "Plaid",
+        "role": "See role",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://plaid.com/careers/openings/engineering/engineering-manager-integrations-platform/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "Plaid",
+        "role": "See role",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://plaid.com/careers/openings/engineering/new-york-city-office/senior-software-engineer-backend-3/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "Plaid",
+        "role": "See role",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://plaid.com/careers/openings/engineering/new-york-city-office/software-engineer-backend-2/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "Plaid",
+        "role": "See role",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://plaid.com/careers/openings/engineering/san-francisco-hq/senior-software-engineer-backend/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    }
+]

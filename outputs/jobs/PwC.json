@@ -1,0 +1,112 @@
+[
+    {
+        "company": "PwC",
+        "role": "Artificial Intelligence (AI)",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.pwc.com/us/en/services/ai.html",
+        "match_score": 6,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "PwC",
+        "role": "Sustainable technology and digital",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.pwc.com/us/en/services/esg/esg-technology.html",
+        "match_score": 3,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "PwC",
+        "role": "Software and digital platforms",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.pwc.com/us/en/industries/tmt/software-digital-platforms-growth-strategy.html",
+        "match_score": 3,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "PwC",
+        "role": "2026 Global Digital Trust Insights Survey",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.pwc.com/us/en/services/consulting/cybersecurity-risk-regulatory/library/global-digital-trust-insights.html",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "PwC",
+        "role": "Chief AI Officer (CAIO)",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.pwc.com/us/en/leadership-center/caio.html",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "PwC",
+        "role": "Sustainability leader",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.pwc.com/us/en/leadership-center/chief-sustainability-officer.html",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "PwC",
+        "role": "Business and supply chain operations",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.pwc.com/us/en/services/consulting/supply-chain-operations.html",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "PwC",
+        "role": "Digital assets and crypto",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.pwc.com/us/en/services/digital-assets.html",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "PwC",
+        "role": "Digital assurance and transparency",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.pwc.com/us/en/services/audit-assurance/digital-assurance-transparency.html",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "PwC",
+        "role": "Engineering and AI",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.pwc.com/us/en/services/consulting/engineering-ai.html",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    }
+]

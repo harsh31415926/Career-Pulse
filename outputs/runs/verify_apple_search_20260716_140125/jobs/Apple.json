@@ -1,0 +1,35 @@
+[
+    {
+        "company": "Apple",
+        "role": "Software Engineer search results",
+        "location": "Live company search",
+        "employment_type": "Not specified",
+        "experience": "Matched to uploaded resume",
+        "description": "Live company career search generated from the uploaded resume. Open the link to view current postings for this role.",
+        "apply_link": "https://jobs.apple.com/en-us/search?search=Software+Engineer",
+        "match_score": 4,
+        "source": "live_resume_search"
+    },
+    {
+        "company": "Apple",
+        "role": "Data Engineer search results",
+        "location": "Live company search",
+        "employment_type": "Not specified",
+        "experience": "Matched to uploaded resume",
+        "description": "Live company career search generated from the uploaded resume. Open the link to view current postings for this role.",
+        "apply_link": "https://jobs.apple.com/en-us/search?search=Data+Engineer",
+        "match_score": 4,
+        "source": "live_resume_search"
+    },
+    {
+        "company": "Apple",
+        "role": "Machine Learning Engineer search results",
+        "location": "Live company search",
+        "employment_type": "Not specified",
+        "experience": "Matched to uploaded resume",
+        "description": "Live company career search generated from the uploaded resume. Open the link to view current postings for this role.",
+        "apply_link": "https://jobs.apple.com/en-us/search?search=Machine+Learning+Engineer",
+        "match_score": 8,
+        "source": "live_resume_search"
+    }
+]

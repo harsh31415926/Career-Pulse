@@ -1,0 +1,24 @@
+[
+    {
+        "company": "HSBC",
+        "role": "HSBC and AI",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.hsbc.com/who-we-are/hsbc-and-digital/hsbc-and-ai",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "HSBC",
+        "role": "HSBC Patents and Research Papers",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.hsbc.com/who-we-are/hsbc-and-digital/hsbc-patents-and-research-papers",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    }
+]

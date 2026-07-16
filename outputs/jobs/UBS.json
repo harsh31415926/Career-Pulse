@@ -1,0 +1,46 @@
+[
+    {
+        "company": "UBS",
+        "role": "Français",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.ubs.com/global/fr/careers.html",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "UBS",
+        "role": "UBS Digital Networks and Events",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://my.ubs.com/communities/wcms/en/signin.html",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "UBS",
+        "role": "Curiosity powers. AI enables.Your turn to shake things up.UBS AI strategy",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.ubs.com/global/en/our-firm/what-we-do/technology/innovation-and-ai.html",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "UBS",
+        "role": "Report fraudulent mail",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://www.ubs.com/global/en/our-firm/cybersafe/phishing.html",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "company": "Optiver",
+        "role": "Optiver interview tips for Software Engineers",
+        "location": "Not specified",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://optiver.com/join-us/stories/optiver-interview-tips-for-software-engineers/",
+        "match_score": 4,
+        "source": "resume_link_fallback"
+    },
+    {
+        "company": "Optiver",
+        "role": "Mumbai",
+        "location": "Mumbai",
+        "employment_type": "Not specified",
+        "experience": "Entry-Level / Early Career friendly",
+        "description": "Resume-matched opportunity discovered from the company career page. Open the apply link to verify current role details.",
+        "apply_link": "https://optiver.com/join-us/locations/mumbai/",
+        "match_score": 2,
+        "source": "resume_link_fallback"
+    }
+]

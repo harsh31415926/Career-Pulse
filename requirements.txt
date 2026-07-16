@@ -1,10 +1,11 @@
 langgraph
 langchain
 langchain_groq
-fitz
-frontend
 pymupdf
 groq
-dotenv
+python-dotenv
 playwright
 beautifulsoup4
+streamlit
+pandas
+plotly
